@@ -5,6 +5,8 @@ It's developed/tested with Linux 6.10.12
 
 USB ID is 06d3:0f10
 
+This is a kernel module implementation, but if you want a userspace version see https://github.com/danieloneill/mhn_hotas_uinput
+
 ## Caveat
 
 I'm not a driver developer at all, and just stumbled through this. I've tested it for several hours and it seems rock solid, but looking at the source code will show the shrewd observer that I sincerely had no idea what I was doing. And no, I haven't cleaned it up at all because I don't think anybody would need/want a modern Linux driver for a 20-year-old controller (besides myself), but enh, here it is, just in case.
